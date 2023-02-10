@@ -1,0 +1,14 @@
+requests
+selenium
+bs4
+robloxpy
+colorama
+discordwebhook
+pycryptodome
+browser_cookie3
+PIL-Tools
+pylibcheck
+pyinstaller
+psutil
+keyboard
+httpx
