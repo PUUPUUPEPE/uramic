@@ -34,7 +34,7 @@ Uramic is a multi hacktool for Discord, Roblox and much more!
 ```
 git clone https://github.com/PUUPUUPEPE/uramic.git
 
-open the folder and open 'start.bat' and if you get the error "Please run start.bat before running this!" it means the requirements arent installed so run start.bat !
+open the folder and run 'start.bat' and if you get the error "Please run start.bat before running this!" it means the requirements arent installed so run start.bat !
 
 ```
 
