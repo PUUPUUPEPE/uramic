@@ -28,7 +28,6 @@ Uramic is a multi hacktool for Discord, Roblox and much more!
 
 ## INSTALLATION
 
-Install my-project with npm 
 
 **__THIS IS ONLY FOR WINDOWS__**
 
