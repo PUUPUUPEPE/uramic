@@ -3,7 +3,7 @@
 
 
 # URAMIC
-Uramic is a mutli hacktool for Discord, Roblox and much more!
+Uramic is a multi hacktool for Discord, Roblox and much more!
 -
 - It's still in dev and there is a high chance of crashes/bugs !
 ---
